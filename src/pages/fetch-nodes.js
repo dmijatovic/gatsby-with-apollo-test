@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { graphqlService } from '../fetchgql/service'
-
+import JsonViewer from '../components/JsonViewer'
 
 class FetchNodes extends Component {
   state={
@@ -33,7 +33,7 @@ class FetchNodes extends Component {
       contentHtml=<div>Error...{this.state.error}</div>
     }
     if (this.state.nodes){
-      contentHtml=<div><pre>{JSON.stringify(this.state.nodes,undefined,2)}</pre></div>
+      contentHtml=<JsonViewer data={this.state.nodes} />
     }
     return (
       <div>

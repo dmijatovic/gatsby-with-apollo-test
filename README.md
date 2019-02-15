@@ -10,4 +10,6 @@ I was also interested in pulling data dynamically using custom service that only
 
 In this demo we cover all 3 ways of pulling data using GraphQL. Basic static way (during the build time) which is default to Gatsby and 2 dynamic queries with Apollo or using fetch API.
 
-To start run `npm start` or `gatsby develop`.
+To start in development mode run `npm start` or `gatsby develop`.
+
+To build project run `npm run build` or `gatsby build`

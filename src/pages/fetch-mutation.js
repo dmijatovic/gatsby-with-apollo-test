@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { graphqlService } from '../fetchgql/service'
+import base64 from 'base-64'
 
 class FetchMutation extends Component {
   //sample node
@@ -14,7 +15,7 @@ class FetchMutation extends Component {
       //data is base64 encoded string
       //to keep data content flexible
       //and avoid GraphQL char escaping problem
-      data: btoa(
+      data: base64.encode(
         JSON.stringify({
           test: 'string',
           chap2: 'node thing'

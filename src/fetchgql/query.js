@@ -3,6 +3,7 @@ export const queryNodesAndLinks = {
     nodes{
       _id
       name
+      data
     }
     links{
       _id
