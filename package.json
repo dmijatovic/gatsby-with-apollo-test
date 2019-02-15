@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-with-apollo",
-  "description": "Gatsby with Apollo Boost",
+  "name": "gatsby-with-apollo-tests",
+  "description": "Gatsby with Apollo Boost or custom service",
   "version": "1.0.0",
-  "author": "Jason Lengstorf <jason@gatsbyjs.com>",
+  "author": "Dusan Mijatovic & Jason Lengstorf <jason@gatsbyjs.com>",
   "dependencies": {
     "apollo-boost": "^0.1.20",
     "gatsby": "^2.0.19",
@@ -16,6 +16,7 @@
     "gatsby",
     "apollo",
     "apollo-boost"
+    "fetch API"
   ],
   "license": "MIT",
   "scripts": {
