@@ -13,3 +13,5 @@ In this demo we cover all 3 ways of pulling data using GraphQL. Basic static way
 To start in development mode run `npm start` or `gatsby develop`.
 
 To build project run `npm run build` or `gatsby build`
+
+This test is performed using GraphQL backend from [this repo](https://github.com/dmijatovic/graphql-crud-test)
